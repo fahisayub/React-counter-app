@@ -1,0 +1,19 @@
+/* .addbtn{
+    background-color: green;
+}
+.subbtn{
+    background-color: red;
+}
+.multbtn{
+    background-color: rgb(34, 34, 148);
+} */
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(9, 126, 126);
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+    width:200px;
+    height: 50px;
+}
