@@ -23,7 +23,7 @@ const Counter=()=>{
 
     return <>
     <h2>Counter App</h2>
-        <h1 className={styles.count}>{counter}</h1>
+      <h1 className={counter%2===0?styles.even:styles.odd}>{counter}</h1>
       
             <div>
               <Countbtn fn={()=>{handlevalue(1)}} bname='Increment' />

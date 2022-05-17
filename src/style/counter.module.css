@@ -9,7 +9,14 @@
     text-align: center;
     overflow: hidden;
 }
-.count{
+
+.odd{
+    color:red;
+    font-size: 100px;
+    font-weight: 500;
+}
+.even{
+    color:green;
     font-size: 100px;
     font-weight: 500;
 }
